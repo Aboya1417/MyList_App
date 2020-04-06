@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Fruits"
+                android:id="@+id/textviewFruits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Dairy"
+                android:id="@+id/textviewDairy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Spices"
+                android:id="@+id/textviewSpices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Paper/Wraps"
+                android:id="@+id/textviewPaper_Wraps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Toiletries"
+                android:id="@+id/textviewToiletries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Vegetables"
+                android:id="@+id/textviewVegetables"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Frozen Food"
+                android:id="@+id/textviewFrozen_Food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Canned Goods"
+                android:id="@+id/textviewCanned_Goods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
